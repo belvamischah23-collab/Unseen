@@ -1,0 +1,2 @@
+2026-09-29T01:58:11+00:00 INFO Starting batch import. Cursor: 2026-09-27 12:40:58 (ID: 0), batch size: 100
+2026-09-29T01:58:12+00:00 INFO Batch import completed. Processed: 2/2 orders in 0.32 seconds. Cursor: 2026-09-27 13:55:44 (ID: 51)

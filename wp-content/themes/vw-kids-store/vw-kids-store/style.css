@@ -1,0 +1,873 @@
+/*
+Theme Name: VW Kids Store
+Theme URI: https://www.buywptemplates.com/products/free-kids-store-wordpress-theme
+Author: VWthemes
+Author URI: https://www.vwthemes.com
+Description: The VW Kids Store is a free WordPress theme specifically designed for kids and baby shops, encompassing everything from children's clothing and nursery items to baby gear and kids toys. Ideal for playgroups, daycare centers, and playhouses, it offers a sophisticated yet colorful design that embodies a minimalistic approach. Developed by a WordPress expert, it features a clean layout that showcases every detail with clarity, ensuring images of your products are crystal clear thanks to its retina-ready design. This user-friendly theme accommodates everyone, regardless of coding experience, with a responsive layout that guarantees an excellent viewing experience on all devices, including smartphones. To enhance your site's professional look, you can easily add a custom logo, and you'll find plenty of personalization options for colors, fonts, and typography. The theme includes a Call to Action Button for improved interactivity while boasting secure, optimized codes that result in a lightweight design for faster page loads. With SEO-friendly coding, you'll see higher search engine rankings, ultimately driving more traffic to your online store. Explore the demo here: https://demos.buywptemplates.com/kids-store/. Demo: https://demos.buywptemplates.com/kids-store/
+Requires at least: 5.0
+Template: vw-kids
+Tested up to: 7.0
+Requires PHP: 7.2
+Version: 2.0.2
+License: GPLv3.0 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: vw-kids-store
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, flexible-header, block-patterns, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, sticky-post, full-width-template, theme-options, threaded-comments, post-formats, rtl-language-support, blog, portfolio, e-commerce
+*/
+
+#topbar, .woocommerce span.onsale, .woocommerce ul.products li.product, #footer, .pagination span, .pagination a, #comments a.comment-reply-link:hover {
+  background: #12265a;
+}
+a, .logo h1 a, .logo p.site-title a, .main-navigation a, .categry-title strong, .product-cat li a:hover, .main-navigation ul ul a, #slider .view-more:hover, .view-more:hover i, #popular-toys strong, .woocommerce ul.products li.product:hover h2, .woocommerce ul.products li.product:hover .price, .woocommerce ul.products li.product:hover .star-rating::before, .woocommerce ul.products li.product:hover span.onsale, .copyright p, .copyright a, .account a:hover, #footer input[type="submit"], .content-vw a, .woocommerce-product-details__short-description p a, .entry-content a, #sidebar .textwidget a, .textwidget a, #comments .comment-content a,.post-main-box h2 a, .view-more, .content-bttn .view-more:hover i, .error-btn .view-more:hover i, #sidebar li a:hover, .woocommerce div.product .product_title, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, h1, h2, h3, h4, h5, h6, .woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled], nav.woocommerce-MyAccount-navigation ul li a, .cart_no i {
+  color: #12265a;
+}
+#menu-box, .categry-title, #slider hr, #slider .view-more:hover, .woocommerce ul.products li.product:hover, .woocommerce ul.products li.product:hover span.onsale, #footer-2, nav.woocommerce-MyAccount-navigation ul li, .header-fixed, #preloader {
+  background: #ffc85b;
+}
+.grid-post-main-box:hover h2 a, .grid-post-main-box:hover .entry-date a, .grid-post-main-box:hover .entry-author a, .main-navigation ul.sub-menu a:hover, .post-main-box:hover h2 a, .post-main-box:hover .entry-date a, .post-main-box:hover .entry-author a, .single-post .post-info:hover .entry-date a, .single-post .post-info:hover .entry-author a, .cart_no i:hover,.logo .site-title a:hover {
+  color: #ffc85b;
+}
+.cart-value, #slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover, .scrollup i, input[type="submit"], .view-more:hover , .pagination .current, .pagination a:hover, #sidebar .tagcloud a:hover, #footer .tagcloud a:hover, #comments input[type="submit"], #comments a.comment-reply-link, .woocommerce #respond input#submit:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce button.button:disabled:hover, .woocommerce button.button:disabled[disabled]:hover, #toy-category .owl-nav button:hover {
+  background: #ffc85b;
+  color: #12265a;
+}
+.main-navigation ul li:first-child a, .main-navigation a, #slider .view-more, #slider .carousel-control-prev-icon, #slider .carousel-control-next-icon {
+  border-color: #fff;
+}
+.main-navigation ul ul li:first-child a{
+  border-color: #eaeaea;
+}
+.main-navigation ul ul, a.button.product_type_simple.add_to_cart_button, .view-more, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .cart_no i, .header-fixed, .loader-line {
+  border-color: #12265a;
+}
+.page-template-ibtana-page-template .middle-align{
+  padding: 0em 0 0;
+}
+.product-cat li a {
+  color: #3f3f3f;
+}
+#cate_slider {
+  background: #ffe6e6;
+}
+#slider {
+  background: linear-gradient(90deg, #000 20%, rgb(0 0 0 / 20%) 80%);
+}
+#slider .inner_carousel h1 a, #slider .inner_carousel p, #slider .view-more, #slider .carousel-control-prev-icon, #slider .carousel-control-next-icon, #slider .inner_carousel h1 a:hover, #footer li a:hover {
+  color: #fff;
+}
+#slider .view-more:hover, #slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover, #popular-toys hr, .products li:hover a.button, #footer h3:after, #footer .wp-block-search .wp-block-search__label:after, .view-more:hover, a.added_to_cart.wc-forward, .woocommerce #respond input#submit:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce button.button:disabled:hover, .woocommerce button.button:disabled[disabled]:hover, #toy-category .owl-nav button:hover {
+  border-color: #ffc85b;
+}
+a.button.product_type_simple.add_to_cart_button {
+  background: url(assets/images/cart-icon.png) no-repeat scroll 17px #fff;
+}
+a.added_to_cart.wc-forward {
+  color: #ffc85b;
+}
+.woocommerce ul.products li.product:hover a.added_to_cart.wc-forward{
+  color: #12265a;
+}
+#sidebar a.button:hover{
+  background: #ffc85b;
+  color: #12265a;
+}
+nav.navigation.posts-navigation .nav-previous a, nav.navigation.posts-navigation .nav-next a{
+  background: #ffc85b;
+  color: #12265a !important;
+}
+/*Toys Product*/
+#toy-category .cat-box img {
+  border-radius: 15px;
+}
+#toy-category .cat-box h3 {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  left: 0;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+#toy-category .cat-box h3:after{
+  content: '';
+  width: 50px;
+  height: 3px;
+  background: #ffc85b;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 30px;
+}
+#toy-category .cat-box h3 a {
+  color: #fff;
+}
+#toy-category .owl-nav {
+  margin-top: 20px;
+  text-align: center;
+}
+#toy-category .owl-nav button {
+  padding: 10px 15px !important;
+  border: 2px solid #12265a;
+  color: #12265a;
+  margin: 0 5px;
+  border-radius: 50%;
+}
+.post-main-box, #sidebar .widget, .grid-post-main-box {
+  box-shadow: 0px 15px 10px -15px #ffc85b;
+}
+nav.woocommerce-MyAccount-navigation ul li {
+  box-shadow: 2px 2px 0 0 #12265a;
+}
+section.related.products a.button.product_type_simple.add_to_cart_button{
+  top: 160px;
+}
+.copyright p{
+  margin-top: 4px;
+}
+.custom-social-icons i{
+  color: #12265a;
+}
+#footer .wp-block-search .wp-block-search__button, #sidebar .wp-block-search .wp-block-search__button, .post-categories li a,
+.bradcrumbs a:hover, .bradcrumbs span{
+  background: #ffc85b;
+  color: #12265a;
+}
+input#url{
+  width: 100%;
+  padding: 12px 10px;
+  font-size: 18px;
+  margin: 20px 0 0 0;
+  border: 1px solid #bcbcbc;
+}
+.woocommerce nav.woocommerce-pagination ul li span.current{
+  background: #ffc85b;
+}
+.woocommerce nav.woocommerce-pagination ul li a:hover {
+  background: #ffc85b;
+}
+.pagination span, .pagination a, .post-nav-links span, .post-nav-links a{
+  color: #fff;
+}
+/*Block-button css*/
+.wp-block-button.is-style-outline a{
+  color: #ffc85b !important;
+}
+.wp-block-button.is-style-outline a:hover{
+  color: #ffc85b !important;
+}
+#footer .custom-about-us a.custom_read_more, #sidebar h3, #sidebar .wp-block-search .wp-block-search__label, #sidebar .wp-block-heading{
+  background: #ffc85b;
+  color: #12265a !important;
+}
+.view-more:hover, .related-post .view-more:hover{
+  background:#ffc85b ;
+  border-color: #ffc85b;
+  color: #12265a;
+}
+.view-more:hover i{
+  color: #12265a;
+}
+#popular-toys a.added_to_cart.wc-forward{
+  border: solid 2px #ffc85b;
+  background: url(assets/images/view-icon.png) no-repeat scroll 17px #fff;
+}
+a.wc-block-components-product-name, .wc-block-components-product-name{
+  color: #12265a !important;
+}
+@media screen and (max-width: 1000px) {
+  .toggle-nav i,.sidenav .closebtn{
+    background: #12265a;
+    padding: 8px 26px 8px 10px !important;
+  }
+  .main-navigation ul li a {
+    color: #ffc85b;
+  }
+}
+#tag-cloud .tag-cloud-link,.wp-block-woocommerce-cart .wc-block-components-product-badge,
+.wp-block-woocommerce-cart .wc-block-cart__submit-button, .wc-block-components-checkout-place-order-button, .wc-block-components-totals-coupon__button,
+.wp-block-woocommerce-empty-cart-block a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart,.wp-block-woocommerce-empty-cart-block .wc-block-grid__product-onsale ,
+header.woocommerce-Address-title.title a,a.wc-block-components-checkout-return-to-cart-button{
+  background: #ffc85b !important;
+  color: #12265a !important;
+  border-color: transparent !important;
+}
+#tag-cloud .tag-cloud-link:hover,.wp-block-woocommerce-cart .wc-block-components-product-badge:hover,
+.wp-block-woocommerce-cart .wc-block-cart__submit-button:hover, .wc-block-components-checkout-place-order-button:hover, .wc-block-components-totals-coupon__button:hover,
+.wp-block-woocommerce-empty-cart-block a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart:hover,a.wc-block-components-checkout-return-to-cart-button:hover{
+  background: #12265a !important;
+  color: #fff !important;
+}
+.wp-block-woocommerce-empty-cart-block a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart{
+  font-size: 15px !important;
+  padding: 10px 10px !important;
+}
+.main-navigation ul.sub-menu > li > a:hover{
+  background: #ffc85b !important;
+}
+
+/* ==========================================================================
+   REVISI TAMBAHAN — Font Sans-Serif, Headliner, Search Bar, Video Section
+   ========================================================================== */
+
+/* 1. Font sans-serif normal untuk seluruh konten */
+body, p, li, span, div, .entry-content, .woocommerce, input, textarea, select, button,
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif !important;
+}
+
+/* 2. Headliner otomatis di atas tiap halaman (Katalog, Keranjang, Pembayaran, dll) */
+.vwks-headliner {
+  background: linear-gradient(135deg, #12265a, #1c3a7a);
+  padding: 46px 20px;
+  text-align: center;
+}
+.vwks-headliner h1 {
+  color: #ffffff !important;
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* 3. Search bar lebih menonjol & rounded */
+.wp-block-search__input, #searchform input[type="search"], .woocommerce-product-search input[type="search"] {
+  border-radius: 30px !important;
+  border: 2px solid #ffc85b !important;
+  padding: 10px 18px !important;
+}
+.wp-block-search__button, #searchform input[type="submit"], .woocommerce-product-search button {
+  border-radius: 30px !important;
+  background: #12265a !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 10px 20px !important;
+}
+
+/* 4. Homepage — section video & foto */
+.vwks-video-photo-section .wp-block-embed,
+.vwks-video-photo-section img {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(18, 38, 90, 0.15);
+}
+
+/* 5. Polish tombol Cart & Checkout (WooCommerce Blocks) biar senada tema */
+.wp-block-woocommerce-cart .wc-block-cart__submit-button,
+.wc-block-components-checkout-place-order-button,
+.wc-block-components-totals-coupon__button {
+  border-radius: 30px !important;
+}
+
+
+/* ==========================================================================
+   REVISI TAMBAHAN 2 — Single Product ala Pop Mart, Katalog Grid Template
+   ========================================================================== */
+
+/* 1. Single Product Page — layout ala Pop Mart (gambar kiri, info kanan) */
+.woocommerce div.product .woocommerce-product-gallery {
+  border-radius: 16px;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+.woocommerce div.product .woocommerce-product-gallery__image {
+  background: #f5f5f5;
+}
+.woocommerce div.product .flex-control-thumbs li img {
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+.woocommerce div.product .flex-control-thumbs li img.flex-active,
+.woocommerce div.product .flex-control-thumbs li img:hover {
+  border-color: #12265a;
+}
+
+.woocommerce div.product .summary {
+  padding-left: 24px;
+}
+.woocommerce div.product .summary .product_title {
+  font-size: 26px !important;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.woocommerce div.product .summary p.price {
+  font-size: 24px !important;
+  color: #d0021b !important;
+  font-weight: 700;
+}
+.woocommerce div.product .summary .quantity input.qty {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 60px;
+  height: 42px;
+}
+
+/* Tombol "Tambah ke Keranjang" ala Pop Mart — hitam solid, full width */
+.woocommerce div.product .summary button.single_add_to_cart_button,
+.woocommerce div.product .summary .single_add_to_cart_button {
+  background: #000000 !important;
+  color: #ffffff !important;
+  width: 100%;
+  padding: 16px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
+  border-radius: 6px !important;
+  text-transform: uppercase;
+}
+.woocommerce div.product .summary button.single_add_to_cart_button:hover {
+  background: #12265a !important;
+}
+
+/* Badge kecil "POPULER" style di atas judul produk — dipakai manual lewat Custom HTML di deskripsi produk */
+.vwks-product-badge {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+/* Tab Detail/Deskripsi produk lebih rapi */
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+  border-radius: 6px 6px 0 0;
+}
+
+/* 2. Template Grid Katalog Produk (dipakai di pattern "Katalog Produk — Template Grid") */
+.vwks-catalog-template .vwks-catalog-item {
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fafafa;
+  box-shadow: 0 4px 12px rgba(18, 38, 90, 0.08);
+  transition: transform 0.2s ease;
+}
+.vwks-catalog-template .vwks-catalog-item:hover {
+  transform: translateY(-5px);
+}
+.vwks-catalog-template .vwks-catalog-item img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 100%;
+}
+.vwks-catalog-template .vwks-catalog-item h4 {
+  padding: 10px 14px 0;
+  font-size: 15px;
+  margin: 0;
+}
+.vwks-catalog-template .vwks-catalog-item .vwks-catalog-price {
+  padding: 4px 14px 14px;
+  color: #d0021b;
+  font-weight: 700;
+}
+
+
+/* ==========================================================================
+   REVISI TAMBAHAN 3 — Detail Halaman Produk ala referensi Pop Mart
+   ========================================================================== */
+
+/* Breadcrumb (Beranda / Kategori / Produk) */
+.woocommerce-breadcrumb {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.woocommerce-breadcrumb a {
+  color: #666 !important;
+}
+.woocommerce-breadcrumb a:hover {
+  color: #12265a !important;
+}
+
+/* Banner estimasi pengiriman hijau — tempel manual di short description produk pakai Custom HTML:
+   <div class="vwks-shipping-banner">⚡ LOCAL EXPRESS — Estimasi pengiriman 2-3 hari.</div> */
+.vwks-shipping-banner {
+  background: #e6f7ee;
+  color: #1a7a4c;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+/* Baris icon share & wishlist di atas judul produk — tempel manual:
+   <div class="vwks-product-icons"><span>🔗</span><span>♡</span></div> */
+.vwks-product-icons {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+}
+.vwks-product-icons span {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.vwks-product-icons span:hover {
+  color: #12265a;
+}
+
+/* 3b. Pattern "Halaman Produk — Template (ala Pop Mart)" — dipakai di halaman detail tiap produk */
+.vwks-product-detail-template .vwks-product-gallery-main img {
+  border-radius: 16px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 100%;
+  background: #f5f5f5;
+}
+.vwks-product-detail-template .vwks-product-gallery-thumbs img {
+  border-radius: 8px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 100%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+.vwks-product-detail-template .vwks-product-gallery-thumbs img:hover {
+  border-color: #12265a;
+}
+.vwks-product-detail-template .vwks-product-top-row {
+  align-items: center;
+  margin-bottom: 8px;
+}
+.vwks-product-detail-template .vwks-product-price {
+  font-size: 24px;
+  color: #d0021b;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.vwks-product-detail-template .vwks-product-quantity {
+  margin-bottom: 16px;
+}
+.vwks-product-detail-template .vwks-product-buttons {
+  margin-bottom: 24px;
+}
+.vwks-product-detail-template .vwks-product-buttons .wp-block-button {
+  width: 100%;
+}
+.vwks-product-detail-template .vwks-product-buttons .is-style-fill .wp-block-button__link {
+  background: #000000;
+  color: #ffffff;
+  padding: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.vwks-product-detail-template .vwks-product-buttons .is-style-fill .wp-block-button__link:hover {
+  background: #12265a;
+}
+.vwks-product-detail-template .vwks-product-buttons .is-style-outline .wp-block-button__link {
+  border: 2px solid #000000;
+  color: #000000;
+  padding: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  text-align: center;
+  background: transparent;
+}
+.vwks-product-detail-template .vwks-product-buttons .is-style-outline .wp-block-button__link:hover {
+  background: #f5f5f5;
+}
+.vwks-product-detail-template h4.wp-block-heading {
+  border-top: 1px solid #eee;
+  padding-top: 16px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+/* Tab Detail produk dibikin mirip accordion (garis pembatas rapi) */
+.woocommerce div.product .woocommerce-tabs {
+  border-top: 1px solid #eee;
+  margin-top: 24px;
+  padding-top: 16px;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+  border-bottom: none;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+  font-weight: 700;
+  color: #12265a;
+}
+
+
+/* ==========================================================================
+   REVISI TAMBAHAN 4 — Fix Headliner Overlap, My Account, Dropdown, Footer
+   ========================================================================== */
+
+/* 1. FIX: headliner sering ketiban/numpuk sama grid produk — kasih clearfix & pastikan block penuh */
+.vwks-headliner {
+  clear: both !important;
+  width: 100% !important;
+  display: block !important;
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+}
+.vwks-headliner::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 2. My Account page — dirapiin */
+.woocommerce-account .woocommerce {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation {
+  flex: 0 0 220px;
+  background: #f7f8fb;
+  border-radius: 14px;
+  padding: 16px 0;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation li {
+  border-bottom: 1px solid #eaeaea;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation li:last-child {
+  border-bottom: none;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation li a {
+  display: block;
+  padding: 12px 20px;
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation li.is-active a,
+.woocommerce-account .woocommerce-MyAccount-navigation li a:hover {
+  background: #12265a;
+  color: #ffffff;
+}
+.woocommerce-account .woocommerce-MyAccount-content {
+  flex: 1;
+  min-width: 280px;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 4px 14px rgba(18, 38, 90, 0.08);
+}
+.woocommerce-account .woocommerce-MyAccount-content .button,
+.woocommerce-form-login button, .woocommerce-form-register button {
+  background: #12265a !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  padding: 10px 26px !important;
+  border: none !important;
+}
+.woocommerce-account .woocommerce-MyAccount-content table.shop_table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* 3. Dropdown Produk (shortcode [produk_dropdown]) */
+.vwks-product-dropdown-wrapper {
+  max-width: 320px;
+  margin: 0 auto 24px;
+}
+.vwks-product-dropdown {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 30px;
+  border: 2px solid #12265a;
+  font-weight: 600;
+  color: #12265a;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* 4. Footer dirapiin */
+footer[role="contentinfo"] #footer.copyright-wrapper {
+  background: #12265a;
+  color: #ffffff;
+  padding: 40px 0 10px;
+}
+footer[role="contentinfo"] #footer .widget-title {
+  color: #ffc85b;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+footer[role="contentinfo"] #footer .widget,
+footer[role="contentinfo"] #footer a {
+  color: #e8ecf5;
+}
+footer[role="contentinfo"] #footer a:hover {
+  color: #ffc85b;
+}
+footer[role="contentinfo"] #footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer[role="contentinfo"] #footer-2 {
+  background: #0c1a40;
+  color: #cfd6e8;
+  padding: 16px 0;
+  text-align: center;
+  font-size: 13px;
+}
+footer[role="contentinfo"] #footer-2 a {
+  color: #ffc85b;
+}
+
+
+/* ==========================================================================
+   REVISI TAMBAHAN 5 — Mega Menu Hover Navbar (ala Pop Mart)
+   ========================================================================== */
+.vwks-megamenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  box-shadow: 0 12px 28px rgba(18, 38, 90, 0.18);
+  border-radius: 12px;
+  padding: 20px;
+  z-index: 999;
+  white-space: nowrap;
+}
+.vwks-has-megamenu:hover .vwks-megamenu {
+  display: block;
+}
+.vwks-megamenu-row {
+  display: flex;
+  gap: 18px;
+}
+.vwks-megamenu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none !important;
+  width: 90px;
+  transition: transform 0.2s ease;
+}
+.vwks-megamenu-item:hover {
+  transform: translateY(-3px);
+}
+.vwks-megamenu-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #f5f5f5;
+  margin-bottom: 8px;
+}
+.vwks-megamenu-item span {
+  font-size: 12px;
+  text-align: center;
+  color: #333;
+  white-space: normal;
+  line-height: 1.3;
+}
+@media (max-width: 782px) {
+  .vwks-megamenu {
+    position: static;
+    transform: none;
+    box-shadow: none;
+    white-space: normal;
+  }
+  .vwks-megamenu-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+/* ==========================================================================
+   FIX BUG — Preloader nyangkut nutupin halaman (terutama pas ke Checkout)
+   ========================================================================== */
+#preloader {
+  display: none !important;
+}
+
+
+/* ==========================================================================
+   REVISI TAMBAHAN 6 — Footer Baru (Proper E-Commerce)
+   ========================================================================== */
+.vwks-footer { background: #12265a; color: #e8ecf5; }
+.vwks-footer-main { padding: 50px 0 30px; }
+.vwks-footer-columns { display: flex; flex-wrap: wrap; gap: 30px; }
+.vwks-footer-col { flex: 1 1 220px; min-width: 200px; }
+.vwks-footer .widget-title {
+  color: #ffc85b;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.vwks-footer-about { font-size: 14px; line-height: 1.6; color: #c8d0e6; }
+.vwks-footer-col ul { list-style: none; padding: 0; margin: 0; }
+.vwks-footer-col ul li { margin-bottom: 8px; }
+.vwks-footer-col ul li a,
+.vwks-footer-bottom a {
+  color: #e8ecf5;
+  text-decoration: none;
+  font-size: 14px;
+}
+.vwks-footer-col ul li a:hover { color: #ffc85b; }
+
+.vwks-footer-social { display: flex; gap: 10px; margin-top: 14px; }
+.vwks-footer-social a {
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  border: 1px solid #ffc85b;
+  color: #ffc85b;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 700;
+  text-decoration: none;
+}
+.vwks-footer-social a:hover { background: #ffc85b; color: #12265a; }
+
+.vwks-newsletter-form { display: flex; gap: 8px; margin-top: 10px; }
+.vwks-newsletter-form input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 20px;
+  border: none;
+  font-size: 13px;
+}
+.vwks-newsletter-form button {
+  background: #ffc85b;
+  color: #12265a;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 18px;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+}
+.vwks-newsletter-form button:hover { background: #ffffff; }
+
+.vwks-footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.15);
+  padding: 16px 0;
+}
+.vwks-footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.vwks-footer-bottom p { margin: 0; font-size: 13px; color: #c8d0e6; }
+.vwks-footer-payments { display: flex; gap: 10px; }
+.vwks-footer-payments span {
+  font-size: 11px;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 4px;
+  padding: 3px 8px;
+  color: #c8d0e6;
+}
+@media (max-width: 600px) {
+  .vwks-footer-bottom .container { flex-direction: column; text-align: center; }
+}
+
+
+/* ==========================================================================
+   REVISI TAMBAHAN 7 — Hero Banner ala Uniqlo (Gambar + Video)
+   ========================================================================== */
+
+/* Hero Image Banner */
+.vwks-hero-image .wp-block-cover__inner-container {
+  max-width: 480px;
+  padding-left: 40px;
+}
+.vwks-hero-badge {
+  display: inline-block;
+  background: #d0021b;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 5px 14px;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+.vwks-hero-price {
+  font-size: 26px;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 10px 0 0;
+}
+.vwks-hero-price-old {
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: line-through;
+  opacity: 0.6;
+  margin-left: 8px;
+}
+.vwks-hero-image .wp-block-button__link {
+  background: #ffffff !important;
+  color: #12265a !important;
+  border-radius: 4px !important;
+  font-weight: 700;
+  padding: 12px 28px !important;
+  margin-top: 16px;
+}
+.vwks-hero-image .wp-block-button__link:hover {
+  background: #ffc85b !important;
+}
+
+/* Hero Video Banner */
+.vwks-hero-video {
+  position: relative;
+  height: 560px;
+  overflow: hidden;
+  background: #000;
+}
+.vwks-hero-video-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 56.25vw; /* rasio 16:9 */
+  min-height: 100%;
+  min-width: 177.77vh; /* rasio 16:9 kebalikannya, biar selalu nutup penuh */
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.vwks-hero-video-bg iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.vwks-hero-video-overlay {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  z-index: 2;
+  max-width: 420px;
+}
+.vwks-hero-video-overlay::before {
+  content: "";
+}
+@media (max-width: 782px) {
+  .vwks-hero-video { height: 420px; }
+  .vwks-hero-image .wp-block-cover__inner-container { padding-left: 20px; max-width: 90%; }
+  .vwks-hero-video-overlay { left: 20px; bottom: 20px; max-width: 85%; }
+}
+
+
+/* ==========================================================================
+   FIX — Sembunyikan judul halaman bawaan tema ("Beranda") khusus di homepage
+   ========================================================================== */
+.home .vw-page-title {
+  display: none !important;
+}
